@@ -33,17 +33,21 @@ export default function Home() {
 </Link>
 
 
-        <button style={{
-          padding: "12px 24px",
-          borderRadius: "8px",
-          border: "none",
-          background: "linear-gradient(90deg, #6366f1, #ec4899)",
-          color: "#fff",
-          fontSize: "16px",
-          cursor: "pointer"
-        }}>
-          Inteligencia Artificial
-        </button>
+        <Link href="/ia">
+  <button style={{
+    padding: "12px 24px",
+    borderRadius: "8px",
+    border: "none",
+    background: "linear-gradient(90deg, #6366f1, #ec4899)",
+    color: "#fff",
+    fontSize: "16px",
+    cursor: "pointer"
+  }}>
+    Inteligencia Artificial
+  </button>
+</Link>
+
+
       </div>
     </div>
   );
