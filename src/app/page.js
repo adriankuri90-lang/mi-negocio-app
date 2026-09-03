@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <div style={{
@@ -17,17 +18,21 @@ export default function Home() {
         Todo lo de tu negocio, en un solo lugar.
       </p>
       <div style={{ display: "flex", gap: "16px" }}>
-        <button style={{
-          padding: "12px 24px",
-          borderRadius: "8px",
-          border: "none",
-          backgroundColor: "#000",
-          color: "#fff",
-          fontSize: "16px",
-          cursor: "pointer"
-        }}>
-          Finanzas
-        </button>
+      <Link href="/finanzas">
+  <button style={{
+    padding: "12px 24px",
+    borderRadius: "8px",
+    border: "none",
+    backgroundColor: "#000",
+    color: "#fff",
+    fontSize: "16px",
+    cursor: "pointer"
+  }}>
+    Finanzas
+  </button>
+</Link>
+
+
         <button style={{
           padding: "12px 24px",
           borderRadius: "8px",
